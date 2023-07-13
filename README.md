@@ -14,3 +14,4 @@ This scraper is currently in beta and undergoing active development.
 	- Time to scrape (in seconds)(0 for until end of stream)
 	- Include historical comments in scrape (y/n)
 - More in future updates...
+- Use format 'python3 scraper.py [URL] --args' (Url currently hardcoded)

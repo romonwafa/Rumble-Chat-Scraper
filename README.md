@@ -1,6 +1,6 @@
 # Rumble Live Chat Scraper
 
-Usage: `python3 scraper.py`
+Usage: `python3 scraper.py [URL]`
 
 This scraper is currently in beta and undergoing active development.
 

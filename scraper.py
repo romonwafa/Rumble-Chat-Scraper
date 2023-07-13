@@ -1,12 +1,20 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.firefox.options import Options 
 import requests
 from bs4 import BeautifulSoup
 from time import sleep
+import argparse
 
-driver = webdriver.Firefox()
-driver.get("https://rumble.com/v2vyfpm-rt-news-livestream-247.html")
+parser = argparse.ArgumentParser()
+parser.add_argument("URL", help="URL of a Rumble live stream")
+args = parser.parse_args()
+
+options = Options()
+options.add_argument("--headless")
+driver = webdriver.Firefox(options=options)
+driver.get(args.URL)
 
 sleep(3)
 

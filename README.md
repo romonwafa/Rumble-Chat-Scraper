@@ -3,8 +3,13 @@
 Usage: `python3 scraper.py [options] [URL]`
 
 ## Current features:
-- Scrapes existing live chats from a live stream
-- Scrapes details associated with each chat message such as username, user id, message id, avatar url and profile url
+- Scrapes existing live chats and details associated with each chat message:
+	- username
+	- user id
+	- message id
+	- avatar url
+	- profile url
+	- message text
 - Output csv file
 
 ## Roadmap

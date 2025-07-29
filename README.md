@@ -12,7 +12,5 @@ Usage: `python3 scraper.py [options] [URL]`
 	- Message Text
 - Output csv file
 
-## Roadmap
-- Listen for new chats and scrape them as they come in
-- Add option
-	- Time to scrape for (in seconds, or until end of stream)
+## Archived
+This repository will not be updated or maintained anymore going forward as I am no longer interested in the project.
